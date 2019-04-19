@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  slideOpts = {
+  // effect: 'slide',
+  zoom: false,
+  // spaceBetween: 100,ss
+  centeredSlides: true,
+  width: 500,
+  slidesPerView: 1
+  };
 }
